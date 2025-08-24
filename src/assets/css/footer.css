@@ -1,0 +1,63 @@
+footer{
+    width: 100%;
+    min-height: 500px;
+    padding: 50px 40px;
+    background: rgb(255 251 238);
+    box-sizing: border-box;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+
+    span{
+        font-size: 30px;
+    }
+}
+.footer-logo{
+    height: 70px;
+    background-color: transparent;
+}
+.download-app{
+    font-size: 17px;
+}
+.btn-app{
+    width: 80px;
+    height: 50px;
+    background: #000;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    margin-right: 10px;
+}
+.links{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:5px;
+}
+.social-link{
+    outline: none;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+}
+.quiz-link ul, .contact ul, .company ul{
+    list-style-type: none;
+    padding: 0;
+}
+.quiz-link li, .contact li, .company li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.quiz-link a, .contact a, .company a{
+    text-decoration: none;
+    color: #000;
+
+    &:hover{
+        color: orange;
+        text-decoration: underline solid orange;
+    }
+}
+.footer-lastImg{
+    width: 100%;
+    margin-top: 30px;
+}
