@@ -43,8 +43,6 @@ export default function Footer () {
                     </ul>
                 </div>
             </div>
-            <img src="https://cdn.ostad.app/public/upload/2023-10-02T07-41-28.162Z-supported-payments.webp" alt="" className="footer-lastImg"/>
-
         </footer>
     );
 };

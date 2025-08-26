@@ -170,6 +170,17 @@ nav{
                 cursor: pointer;
             }
         }
+        .moon{
+            color:black;
+            border-radius: 5px;
+            padding: 8px 10px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #EAECF0;
+                
+            }
+        }
         
     }
 

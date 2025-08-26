@@ -39,6 +39,9 @@ export default function Header() {
                             <button>সব কোর্স</button>
                             <span><i className="fa-solid fa-angle-down"></i></span>
                         </div>
+                        <div className="moon">
+                            <span><i class="fa-solid fa-circle-half-stroke"></i></span>
+                        </div>
                     </div>
                     <div className="right">
                         <div className="log-sign">
