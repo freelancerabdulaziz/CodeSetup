@@ -31,7 +31,7 @@ export default function Header() {
                     <div className="left">
                         <div>
                             <ul>
-                                <li><i className="fa-solid fa-globe"></i></li>
+                                <li className="enIcon"><i className="fa-solid fa-globe"></i></li>
                                 <li>EN</li>
                             </ul>
                         </div>
