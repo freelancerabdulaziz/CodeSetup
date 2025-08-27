@@ -1,8 +1,6 @@
 footer{
     width: 100%;
-    
-    min-height: 500px;
-    padding: 50px 40px;
+    padding: 30px 40px;
     background: rgb(255 251 238);
     box-sizing: border-box;
 }
@@ -63,4 +61,46 @@ footer{
 .footer-lastImg{
     width: 100%;
     margin-top: 30px;
+}
+
+.downFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#4cbdd6;
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap:10px;
+        padding:0;
+
+        li{
+            padding: 15px 0 0 0;
+
+            &:hover{
+                text-decoration: underline solid #4cbdd6;
+            }
+
+            a{
+                text-decoration:none;
+                color:#4cbdd6;
+            }
+        }
+
+        
+
+    }
+    p{
+        color:#4cbdd6;
+
+        a{
+            color:#4cbdd6;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline solid #4cbdd6;
+            }
+        }
+    }
 }

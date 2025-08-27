@@ -23,6 +23,7 @@ export default function Footer () {
                         <li><a href="">আপকামিং লাইভ ব্যাচ</a></li>
                         <li><a href="">ফ্রি কোর্সসমূহ</a></li>
                         <li><a href="">লাইভ ওয়ার্কশপ</a></li>
+                        <li><a href="https://www.facebook.com/bongobazar.info">বঙ্গ বাজার</a></li>
                         <li><a href="">ব্লগ</a></li>
                     </ul>
                 </div>
@@ -43,12 +44,17 @@ export default function Footer () {
                     </ul>
                 </div>
             </div>
-            <div>
-                <p style={
-                    {
-                        textAlign: 'center'
-                    }
-                }>Freelancer Abdul Aziz</p>
+
+            <div className="downFooter">
+                <div>
+                    <ul>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-copyright"></i> 2025 All Rights Reserved to <a href="https://www.facebook.com/codesetup.dev">CodeSetup</a> </p>
+                </div>
             </div>
         </footer>
     );
